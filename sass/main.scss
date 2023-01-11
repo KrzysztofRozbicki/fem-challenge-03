@@ -16,7 +16,9 @@
   padding: 1rem;
   width: min(85%, 20rem);
   background-color: $bg-color-100;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
 }
+
 .qr-code {
   width: auto;
   border-radius: 0.675rem;
