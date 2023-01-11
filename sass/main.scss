@@ -1,0 +1,20 @@
+@use '../sass/utils/vars' as *;
+@use '../sass/components' as *;
+
+.body {
+  font-family: $ff-primary;
+  background-color: $bg-color-200;
+}
+
+.wrapper {
+}
+.qr-code {
+}
+
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+}
+.attribution a {
+  color: $text-accent-500;
+}
