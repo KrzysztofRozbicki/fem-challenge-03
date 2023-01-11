@@ -12,16 +12,17 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 20rem;
-  max-height: 31rem;
   border-radius: 1.25rem;
   padding: 1rem;
+  width: min(85%, 20rem);
   background-color: $bg-color-100;
 }
 .qr-code {
   width: auto;
-  &__text-box{
-    padding:1.5rem 1rem;
+  border-radius: 0.675rem;
+  overflow: hidden;
+  &__text-box {
+    padding: 1.5rem 1rem;
   }
   &__header {
   }
@@ -37,6 +38,7 @@
   transform: translate(-50%);
   font-size: 0.75rem;
   text-align: center;
+  width: 100%;
 }
 .attribution a {
   color: $text-accent-500;

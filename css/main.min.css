@@ -25,15 +25,16 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  max-width: 20rem;
-  max-height: 31rem;
   border-radius: 1.25rem;
   padding: 1rem;
+  width: min(85%, 20rem);
   background-color: hsl(0deg, 0%, 100%);
 }
 
 .qr-code {
   width: auto;
+  border-radius: 0.675rem;
+  overflow: hidden;
 }
 .qr-code__text-box {
   padding: 1.5rem 1rem;
@@ -50,6 +51,7 @@
           transform: translate(-50%);
   font-size: 0.75rem;
   text-align: center;
+  width: 100%;
 }
 
 .attribution a {
